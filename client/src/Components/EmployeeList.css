@@ -1,0 +1,54 @@
+.table-container {
+    flex: 1; /* Take remaining space */
+    overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+    margin-top: 10px; /* Add some space between sidebar and table on top */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 9px;
+  }
+  
+  .add-button {
+    margin-bottom: 7px; /* Space between button and table */
+    /* margin-left: 10px; */
+  }
+
+  .action-btn-delete{
+    color: #fefffc;
+    background-color: firebrick;
+  }
+  .action-btn-edit{
+    margin-right: 5px;
+  }
+  
+  /* Responsive table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add margin to separate from the button on larger screens */
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add borders for better readability */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .table-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .add-button {
+      margin-bottom: 20px; /* Increase space between button and table on smaller screens */
+      margin-left: 10px;
+    }
+  }
+  

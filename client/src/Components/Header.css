@@ -1,0 +1,12 @@
+/* Header.css */
+
+.header {
+    background-color: hsl(120, 11%, 4%);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    /* box-shadow: #f0f0f0; */
+  }
+  
+  
+  

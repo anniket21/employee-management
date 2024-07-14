@@ -1,0 +1,30 @@
+.category-button {
+  margin-top: 10px; /* Space between button and table */
+  margin-left: 10px;
+}
+
+.categoryContainer {
+    flex: 1; /* Take remaining space */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .categoryContainer button {
+    margin-bottom: 10px; /* Space between button and list */
+  }
+  
+  .categoryContainer ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .categoryContainer ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    color: #007bff; /* Blue color for list items */
+    text-decoration: underline; /* Underline for each list item */
+  }
+  
+  .categoryContainer ul li:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  

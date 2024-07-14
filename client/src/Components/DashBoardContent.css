@@ -1,0 +1,36 @@
+.main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1{
+    text-align: center;
+  }
+  
+  .dashboard-item {
+    flex: 1 0 30%; /* Responsive design: 30% width, flex-grow 1, no minimum width */
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    
+    .main-content {
+      padding: 20px;
+    }
+  
+    .dashboard-item {
+      flex: 1 0 100%; /* Full width on smaller screens */
+    }
+  }
